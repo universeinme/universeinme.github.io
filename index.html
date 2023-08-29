@@ -1,11 +1,389 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="">
+  <title>EPBD</title>
+  <meta name="description" content="EPBD">
+  <meta name="keywords" content="EPBD">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="colorful.css">
+  <!-- Script: Navbar on-top -->
+  <script src="js/navbar-ontop.js"></script>
 </head>
+
 <body>
-    Test Index
+  <nav class="navbar navbar-expand-md fixed-top bg-light navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b>Home</b></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn btn-outline-secondary" href="#where">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-center cover d-flex flex-column bg-light">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="mx-auto col-lg-6 col-md-8">
+          <!-- <h1 class="display-1 mb-0 mt-5 big-title">EPBD</h1> -->
+          <h3 class="display-3 mb-0 mt-5"><b>Eko Priambodo</b></h3>
+          <p><i class="fa-solid d-inline fa-lg mr-3 fa-location-dot text-dark"></i>Brebes, Indonesia (ID)</p>
+          <h5>DevOps | Cloud Engineer | Web Development</h5>
+          <a href="#" target="_blank"><i class="fa-brands d-inline fa-2x mr-3 fa-linkedin-in text-dark"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-github-alt d-inline fa-2x mr-3 text-dark"></i></a>
+          <a href="#" target="_blank"><i class="fa-solid fa-paperclip fa-2x d-inline mr-3 text-dark"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-auto">
+      <div class="row">
+        <div class="mx-auto col-lg-6 col-md-8 col-10">
+          <a href="#about"><i class="d-block fa fa-angle-down fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 cover bg-fixed" id="about">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-md-12 p-3 text-muted">
+          <h2 class="mb-1"><b>About Me</b></h2>
+          <p>A passionate DevOps Cloud and Programmer 🚀. Graduate of the Faculty of Computer Science, STMIK Tasikmalaya
+            🎓.</p>
+          <p>Have experiences on service mesh architecture, cloud computing provider (AWS, GCP, Alibaba Cloud), CICD
+            using Jenkins, Cloud Development Automation using Terraform or Cloud Provider Platform's, monitoring service
+            and infrastructure using Datadog. Also have basic knowledge about computer networking, building web apps
+            with JavaScript / PHP and some other cool libraries and frameworks.</p>
+          <p>I have completed and been certified by AWS for AWS Certified Cloud Practitioner and Alibaba Cloud for
+            Alibaba Cloud Associate Cloud Computing.</p>
+          <p>I enjoy meeting new people and seeing new perspectives. I like discussing technology, football, racing
+            sport or other things. Of course there is a lot to learn, a lot of problems to solve and a lot more to build
+            on. So far and for what I got, I'm very grateful.</p><br>
+          <h2 class="mb-1"><b>What I'm Doing</b></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 px-lg-5 col-md-6 col-sm-6 col-lg-6 mb-3 px-3 text-center">
+
+          <div class="card project">
+            <div class="card-body p-0">
+              <p class="mt-3 mb-1"><b>DevOps and SRE</b></p>
+              <p class="text-muted m-0"><small>I enjoy learning software development, managing cloud infrastructure and
+                  deployment as DevOps and SRE</small></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 px-lg-5 col-md-6 col-sm-6 col-lg-6 text-center px-3 mb-3">
+
+          <div class="card project">
+            <div class="card-body p-0">
+              <p class="mt-3 mb-1"><b>Cloud Computing</b></p>
+              <p class="text-muted m-0"><small>I build many things using cloud computing including IoT, applications and
+                  websites</small></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 px-lg-5 col-sm-6 col-md-6 col-lg-6 text-center px-3 mb-3">
+
+          <div class="card project">
+            <div class="card-body p-0">
+              <p class="mt-3 mb-1"><b>Web Development</b></p>
+              <p class="text-muted m-0"><small>I enjoy developing and managing websites either for personal or specific
+                  purposes</small></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 px-lg-5 col-sm-6 col-md-6 col-lg-6 text-center px-3 mb-3">
+
+          <div class="card project">
+            <div class="card-body p-0">
+              <p class="mt-3 mb-1"><b>Computer Networking</b></p>
+              <p class="text-muted m-0"><small>I love to make everything connected to communicate with each other, such
+                  as computing devices</small></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-light" id="resume">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-10 mx-auto px-4">
+          <h2 class="text-muted mb-4"><b>Resume</b></h2>
+          <div class="row text-left">
+            <div class="p-3 col-lg-6 col-md-4">
+              <div class="row mb-3">
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-10">
+                  <h4 class="mb-0"><b>&nbsp; &nbsp;Education</b></h4>
+                </div>
+              </div>
+              <div class="px-md-2 col-xs-offset-1 col-sm-12 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <div class="timeline-info">
+                        <h5 class="timeline-title text-muted"><b>STMIK Tasikmalaya</b></h5>
+                        <span>Desember 2020</span>
+                      </div>
+                      <p>Informatics Engineering focused on Network-Based Computing</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="p-3 col-lg-6 col-md-8">
+              <div class="row mb-3">
+                <div class="align-self-center d-flex align-items-center px-0 px-md-2 col-10">
+                  <h4 class="mb-0"><b>&nbsp; Non Formal Education</b></h4>
+                </div>
+              </div>
+              <div class="px-md-2 col-xs-offset-1 col-sm-12 col-sm-offset-2">
+                <ul class="timeline">
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Digitalent Scholarship by Kominfo - Alibaba Cloud</b>
+                      </h5>
+                      <div class="timeline-info">
+                        <span>Juni - August 2023 (165 Hours)</span>
+                      </div>
+                      <p>Alibaba Cloud Computing Associate &amp; Profesional</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Google Cloud Skill Boost</b></h5>
+                      <div class="timeline-info">
+                        <span>November - April 2023 (250 Hours)</span>
+                      </div>
+                      <p>Path Course: Cloud Engineer, DevOps and SRE</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Cisco Skills for all</b></h5>
+                      <div class="timeline-info">
+                        <span>February - March 2023 (44 Hours)</span>
+                      </div>
+                      <p>Endpoint Security</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Cisco Skills for all</b></h5>
+                      <div class="timeline-info">
+                        <span>November 2022 - February 2023 (44 Hours)</span>
+                      </div>
+                      <p>Networking Devices and Initial Configuration</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Cisco Skills for all</b></h5>
+                      <div class="timeline-info">
+                        <span>October - November 2022 (44 Hours)</span>
+                      </div>
+                      <p>Networking Basics</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Orbit Future Academy - AWS</b></h5>
+                      <div class="timeline-info">
+                        <span>June - October 2022 (240 Hours)</span>
+                      </div>
+                      <p>AWS Re/Start Program</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Digitalent Scholarship by Kominfo - Redhat</b></h5>
+                      <div class="timeline-info">
+                        <span>Juli - September 2022 (120 Hours)</span>
+                      </div>
+                      <p>Redhat Enterprise Linux: Container Specialist Engineer (Container, Kubernetes and Openshift)
+                        (DO 180)</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                  <li class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title text-muted"><b>Digitalent Scholarship by Kominfo - Alibaba Cloud</b>
+                      </h5>
+                      <div class="timeline-info">
+                        <span>Mei - Juni 2022 (120 Hours)</span>
+                      </div>
+                      <p>Big Data Associate</p>
+                      <p class="text-muted">Online</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-4 text-center"><b>Portfolio</b></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+              <small class="mb-0">
+                <span class="badge bg-secondary">Cert</span>
+              </small>
+              <h4 class="card-title m-1 text-center"><b>Alibaba Cloud</b></h4>
+              <h6 class="card-subtitle text-center">Cloud Computing Associate</h6>
+              <img src="assets/cert/abc-cc.png" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <a href="https://xuecdn2.aliyunedu.net/img_44ef821214c2aeab9a95a2e92f861b30.png" class="btn btn-secondary btn-sm">Verify</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+              <small class="mb-0">
+                <span class="badge bg-primary">Project</span>
+              </small>
+              <h4 class="card-title m-1 text-center"><b>Slothledos</b></h4>
+              <h6 class="card-subtitle text-center">PHP</h6>
+              <img src="assets/web/todo.png" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <br>
+              <a href="https://github.com/universeinme/todo" class="btn btn-primary btn-sm">Website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+                <span class="badge bg-info"><small>Badge</small></span>
+              <h4 class="card-title m-1 text-center"><b>Amazon Web Service</b></h4>
+              <h6 class="card-subtitle text-center">Cloud Practitioner</h6>
+              <img src="https://www.credly.com/badges/f2cd79da-cbc3-40ae-b018-30c6db71b70f" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <a href="#" class="btn btn-info btn-sm">Verify</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+              <small class="mb-0">
+                <span class="badge bg-info">Badge</span>
+              </small>
+              <h4 class="card-title m-1 text-center"><b>Amazon Web Service</b></h4>
+              <h6 class="card-subtitle text-center">Re/Start</h6>
+              <img src="assets/badge/aws-restart.png" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <a href="https://www.credly.com/badges/498aafeb-d135-4a81-90f4-c8f07a04b9a0" class="btn btn-info btn-sm">Verify</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+              <small class="mb-0">
+                <span class="badge bg-info">Badge</span>
+              </small>
+              <h4 class="card-title m-1 text-center"><b>Cisco</b></h4>
+              <h6 class="card-subtitle text-center">Endpoint Security</h6>
+              <img src="assets/badge/cisco-es.png" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <a href="https://www.credly.com/badges/c43c1247-18a9-4e1a-bd8c-d4c611015841" class="btn btn-info btn-sm">Verify</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-2 col-sm-12 px-lg-5 text-center">
+          <div class="card-deck">
+            <div class="card-body p-0">
+              <small class="mb-0">
+                <span class="badge bg-info">Badge</span>
+              </small>
+              <h4 class="card-title m-1 text-center"><b>Microsoft Azure</b></h4>
+              <h6 class="card-subtitle text-center">SC-900</h6>
+              <img src="assets/badge/ms-sc-900.png" alt="" class="card-img m-1 mx-2 mx-auto"><br>
+              <a href="https://www.credly.com/badges/4477b73c-bc7c-43f8-906b-f22e849fd49d" class="btn btn-info btn-sm">Verify</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-light text-dark" id="where">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="p-3 text-center"><b>Get in touch</b></h3>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-sm" placeholder="Email" required="required"
+                name="email"/>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-sm" id="inlineFormInput" placeholder="Subject"
+                required="required" name="subject"/>
+            </div>
+            <div class="form-group"><textarea class="form-control p-1 form-control-sm" id="exampleTextarea" rows="3"
+                placeholder="Your message" name="message"></textarea></div>
+            <button type="submit" class="btn btn-sm btn-outline-secondary">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center text-muted">All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
